@@ -1,0 +1,24 @@
+*{
+    margin: 15px;
+    padding: 5px;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+body::before{
+    content: "";
+    background-image: url(../images/fundo.jpg);
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+a{
+    color: #fff;
+}
+
